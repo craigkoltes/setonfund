@@ -3,16 +3,311 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
+  <title>Seton Fund - Supporting Traditional Education Access</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Welcome</h1>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-container">
+        <div class="logo">
+          <h1>Seton Fund</h1>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#apply">Apply</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
+
   <main>
-    <p>This is a clean starter template.</p>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Empowering Families Through Traditional Education</h1>
+        <p>Seton Fund helps Madison-area families access quality traditional education—regardless of financial background.</p>
+        <div class="hero-buttons">
+          <a href="#apply" class="btn btn-primary">Apply for Support</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Seton Fund</h2>
+        <div class="about-content">
+          <div class="about-stats">
+            <div class="stat">
+              <h3>100%</h3>
+              <p>Tuition Coverage Goal</p>
+            </div>
+            <div class="stat">
+              <h3>308</h3>
+              <p>Families Supported</p>
+            </div>
+            <div class="stat">
+              <h3>$27,000</h3>
+              <p>Funds Allocated</p>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Mission</h3>
+            <p>Seton Fund's mission is to ensure that every child, regardless of financial background, has access to a traditional education that supports their academic, social, and personal growth. Through financial support, educational resources, and community partnerships, we aim to empower families to give their children the opportunity to thrive in a traditional academic setting.</p>
+            
+            <h3>Vision</h3>
+            <p>Our vision is to create a world where traditional education is not a privilege, but a universal right. We envision a future where every child has the support they need to pursue their educational goals, attend a school of their choice, and reach their full potential in life - while encouraging their personal networks and communities to participate in supporting them.</p>
+            
+            <h3>Our Families</h3>
+            <p>Seton Fund targets all families seeking traditional education for their children, with a primary focus on families in and around the greater Madison, WI area. We serve anyone looking to afford traditional education for their children.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="programs">
+      <div class="container">
+        <h2>Programs & Services</h2>
+        <div class="programs-grid">
+          <div class="program-card">
+            <h3>529 Tuition Payment Program</h3>
+            <p>Seton Fund establishes a 529 account for each student seeking financial help to attend private schools. Funds distributed to each student's individual 529 can be applied to tuition, school supplies, uniforms, extracurricular activities, and other educational costs.</p>
+            <a href="#apply" class="btn btn-outline">Learn More</a>
+          </div>
+          <div class="program-card">
+            <h3>Application & Enrollment Assistance</h3>
+            <p>For families looking for assistance with application and enrollment processes, we provide comprehensive guidance to help navigate the complex admissions process for traditional education institutions.</p>
+            <a href="#apply" class="btn btn-outline">Learn More</a>
+          </div>
+          <div hidden>
+            <div class="program-card">
+            <h3>Financial Vehicle Setup</h3>
+            <p>For each student, Seton Fund sets up a 529 that serves as the student's account for all tuition and school-related expenses. The Fund deposits as close to 100% of the cost of their annual education expenses as possible.</p>
+            <a href="#apply" class="btn btn-outline">Learn More</a>
+          </div>
+          </div hidden>
+          <div class="program-card">
+            <h3>Community Participation Workshops</h3>
+            <p>We offer workshops for parents to better understand financial planning for education, educate parents on how to use the 529 to garner further support from their individual communities, and maximize the value of traditional education.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="objectives" class="objectives">
+      <div class="container">
+        <h2>Objectives</h2>
+        <div class="objectives-grid">
+          <div class="objective-card">
+            <h3>1. Provide Financial Support</h3>
+            <p>Offer tuition assistance to families to cover tuition, fees, educational materials, and ancillary school-related activities.</p>
+          </div>
+          <div class="objective-card">
+            <h3>2. Educational Advocacy</h3>
+            <p>Advocate for traditional education models and promote access to quality schooling, regardless of financial status.</p>
+          </div>
+          <div class="objective-card">
+            <h3>3. Community Engagement</h3>
+            <p>Build a network of supporters, including individuals, corporations, and educational institutions, to create a sustainable resource pool for funding.</p>
+          </div>
+          <div class="objective-card">
+            <h3>4. Empower Families</h3>
+            <p>Provide resources to help families understand the application and admissions process, offer financial tools for crowd-sourcing contributions, and set children up with access to traditional education with financial independence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply" class="apply">
+      <div class="container">
+        <h2>Apply for Support</h2>
+        <p>Ready to take the next step? Complete our application to be considered for financial assistance through our 529 tuition payment program.</p>
+        <div class="apply-content">
+          <div class="apply-info">
+            <h3>Application Process</h3>
+            <ol>
+              <li>Complete the online application form with family and student information</li>
+              <li>Submit required documentation including financial information</li>
+              <li>Attend a brief interview to discuss educational goals and needs</li>
+              <li>Receive decision within 2-3 weeks</li>
+              <li>Upon approval, we'll set up your child's individual 529 account</li>
+            </ol>
+            
+            <h3>Eligibility</h3>
+            <ul>
+              <li>Families seeking traditional education for their children</li>
+              <li>Primary focus on Madison, WI area families</li>
+              <li>Demonstrated financial need</li>
+              <li>Commitment to traditional education values</li>
+            </ul>
+          </div>
+          <div class="apply-form">
+            <form>
+              <div class="form-group">
+                <label for="name">Parent/Guardian Full Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="location">Location (City, State)</label>
+                <input type="text" id="location" name="location" required>
+              </div>
+              <div class="form-group">
+                <label for="student-age">Student Age/Grade Level</label>
+                <input type="text" id="student-age" name="student-age" required>
+              </div>
+              <div class="form-group">
+                <label for="school-preference">Preferred School or School Type</label>
+                <input type="text" id="school-preference" name="school-preference" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Tell us about your family's educational needs and financial situation</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact" class="impact">
+      <div class="container">
+        <h2>Impact & Measurement</h2>
+        <div class="impact-content">
+          <div class="impact-text">
+            <h3>Measuring Success</h3>
+            <p>To measure the success of Seton Fund, we track the following key metrics:</p>
+            <ul>
+              <li><strong>Number of families served:</strong> Total number of families receiving funding</li>
+              <li><strong>Academic outcomes:</strong> Self-reported tracking of academic performance and graduation rates for students supported by the fund</li>
+              <li><strong>Financial assistance distribution:</strong> Monitor the amount of funding allocated to families for educational expenses</li>
+              <li><strong>Community feedback:</strong> Gather testimonials and feedback from families and schools to ensure our services meet their needs</li>
+            </ul>
+          </div>
+          <div class="impact-stats">
+            <div class="impact-stat">
+              <h3>Low Overhead</h3>
+              <p>Maintaining strong financial metrics by Charity Navigator standards</p>
+            </div>
+            <div class="impact-stat">
+              <h3>Community Focus</h3>
+              <p>Building sustainable partnerships with local schools and organizations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have questions about our programs or need assistance with your application? We're here to help families navigate the path to traditional education.</p>
+            <div class="contact-details">
+              <p><strong>Service Area:</strong> Greater Madison, WI area</p>
+              <p><strong>Email:</strong> info@{site-name}.org</p>
+              <p><strong>Phone:</strong> (555) 123-4567</p>
+            </div>
+            
+            <h3>Partnership Opportunities</h3>
+            <p>We actively seek partnerships with:</p>
+            <ul>
+              <li>Individual donors and philanthropists</li>
+              <li>Corporate sponsors</li>
+              <li>Educational institutions</li>
+              <li>Community organizations</li>
+              <li>Religious organizations</li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="contact-name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="contact-email" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <select id="contact-subject" name="contact-subject" required>
+                  <option value="">Select a topic</option>
+                  <option value="application">Application Questions</option>
+                  <option value="donation">Donation Information</option>
+                  <option value="partnership">Partnership Opportunities</option>
+                  <option value="volunteer">Volunteer Opportunities</option>
+                  <option value="general">General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Seton Fund</h3>
+          <p>Supporting families in their pursuit of traditional education excellence. Making traditional education accessible to all children, regardless of financial background.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#apply">Apply</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Support Us</h4>
+          <ul>
+            <li><a href="#contact">Donate</a></li>
+            <li><a href="#contact">Volunteer</a></li>
+            <li><a href="#contact">Partnership</a></li>
+            <li><a href="#contact">Fundraising Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Donor Privacy</a></li>
+            <li><a href="#">501(c)(3) Status</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Seton Fund. All rights reserved. | 501(c)(3) Nonprofit Organization | Based in Madison, Wisconsin</p>
+      </div>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
